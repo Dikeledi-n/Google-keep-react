@@ -1,0 +1,83 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border-bottom: 1px solid #dadce0;
+  padding: 8px;
+  margin: 0 10px;
+  color: #5f6368;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo-area img {
+  padding: 0 5px 0 0;
+  height: 40px;
+  width: 44px;
+}
+
+.material-symbols-outlined {
+  padding: 12px;
+  color: #757575;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  color: #5f6368;
+  margin-right: 20px;
+  padding: 0 0 0 5px;
+}
+
+.search-area {
+  display: flex;
+  align-items: center;
+  width: 692px;
+  height: 48px;
+  border-radius: 8px;
+  margin-left: 190px;
+  margin-bottom: px;
+}
+
+.icon-background {
+  background-color: #f1f3f4;
+  height: 48px;
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 80px;
+}
+
+.search-area input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f3f4;
+  margin-left: 0px;
+  border: none;
+  height: 48px;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 80px;
+}
+
+.search-area input:focus {
+  outline: none;
+}
+
+.settings-area {
+  display: flex;
+  position: absolute;
+  top: 2px;
+  right: 150px;
+}
+
+.profile-area {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 2px;
+  right: 1px;
+}
